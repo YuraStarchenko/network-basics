@@ -23,3 +23,14 @@ I learned how to check my local and external IP.
 
 It was not very difficult. I understand what local and external IP are and what
 LAN and WAN mean.
+
+## Screenshots
+
+Local IP:  
+![Local IP](screenshots/ifconfig.png)
+
+Ping result:  
+![Ping](screenshots/ping.png)
+
+External IP:  
+![External IP](screenshots/external_ip.png)
