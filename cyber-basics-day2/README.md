@@ -1,20 +1,20 @@
 # Day 2 — DNS + HTTP + Wireshark
 
-## Что я понял
+## What I understood
 
-DNS переводит имя сайта в IP-адрес.  
-HTTP используется для общения браузера с сервером.
+DNS changes a website name into an IP address.  
+HTTP is used for communication between the browser and the server.
 
 ## DNS
 
-- google.com → (твой IP)
-- youtube.com → (твой IP)
+- google.com → (your IP)
+- youtube.com → (your IP)
 
 ![DNS nslookup](screenshots/dns_nslookup.png)
 
 ## HTTP
 
-- Ответ сервера: 200 OK
+- Server response: 200 OK
 
 ![HTTP curl](screenshots/http_curl.png)
 
@@ -22,16 +22,27 @@ HTTP используется для общения браузера с серв
 
 ### DNS
 
-Я увидел, как компьютер отправляет запрос к DNS серверу и получает IP.
+I saw how the computer sends a request to the DNS server and gets an IP address.
 
 ![Wireshark DNS](screenshots/wireshark_dns.png)
 
 ### HTTP
 
-Я увидел GET-запрос и ответ сервера.
+I saw the GET request and the server response.
 
 ![Wireshark HTTP](screenshots/wireshark_http.png)
 
-## Вывод
+## Conclusion
 
-(напиши своими словами)
+## Wireshark DNS
+
+In Wireshark, I saw how my computer sends a DNS request to the router to get the
+website IP address.  
+DNS changes the website name into an IP address that is used for connection.
+
+## Wireshark HTTP
+
+I saw an HTTP GET request to the website example.com.  
+This is a request to get the main page of the website.  
+The server answered with status 200 OK, which means the data was sent
+successfully.
