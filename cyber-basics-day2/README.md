@@ -20,13 +20,13 @@ HTTP is used for communication between the browser and the server.
 
 ## Wireshark
 
-### DNS
+### DNS in Wireshark
 
 I saw how the computer sends a request to the DNS server and gets an IP address.
 
 ![Wireshark DNS](screenshots/wireshark_dns.png)
 
-### HTTP
+### HTTP in Wireshark
 
 I saw the GET request and the server response.
 
