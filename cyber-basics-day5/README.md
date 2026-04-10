@@ -4,6 +4,8 @@
 
 POST is used to send form data in the request body.
 
+![FORM](screenshots/form_submit.png)
+
 ## POST request
 
 I saw a POST request after sending the form.
