@@ -11,7 +11,7 @@ If the required header is missing, the server returns an access error.
 
 First, I made a GET request to the API and got JSON with a list of users.
 
-![GET users](screenshots/api_get_users_response.png)
+![GET users](screenshots/api_missing_key_response.png)
 
 ---
 
@@ -19,7 +19,7 @@ First, I made a GET request to the API and got JSON with a list of users.
 
 I sent a POST request with `fetch` without the `x-api-key` header.
 
-![POST without key](screenshots/api_post_without_key.png)
+![POST without key](screenshots/api_error_json.png)
 
 ---
 
@@ -32,7 +32,7 @@ The server returned an error:
 
 This means the endpoint needs a required authentication header.
 
-![API error](screenshots/api_missing_key_error.png)
+![API error](screenshots/api_error_json.png)
 
 ---
 
